@@ -73,10 +73,12 @@ namespace Collection_ArrayList_
             for (int i = 0; i < arryList1.Count; i++)
                 Console.WriteLine(arryList1[i]);
             Console.ReadLine();
+            
+             //Checks if ArrayList contains the particular element.
+            Console.WriteLine(arrayList1.Contains(100));
+            Console.ReadLine();
 
-
-
-        }
+          }
     }
 }
 
